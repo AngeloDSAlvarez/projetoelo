@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+body{
+  border: 1px solid blue;
+  width: 100vw;
+  height: 100vh;
+  background-color: #EDFFFF;
+}
+
+/* ESTILIZAÇÃO TELA DE REGISTRAR */
+
+#telaLogin{
+  background-color: #FFF;
+  width: 350px;
+  height: 500px;
+  margin: 120px auto;
+  border: 1px solid #000 ;
+}
+#espacoLogin{
+  width: 250px;
+  height: 330px;
+  margin: auto;
+  margin-top: 60px;
+}
+.caixasLogin{
+
+  width: 250px;
+  display: block;
+  text-align: left;
+  margin-left: 0px;
+  padding-bottom: 35px;
+}
+.inputLogin{
+  width: 247px;
+  height: 25px;
+  margin-left: 0px;
+  margin-top: 7px;
+}
+.caixaBotao{
+  display: block;
+  width: 190px;
+  height: 40px;
+  background-color: transparent;
+  margin: auto;
+  box-shadow: 2px 2px #8F8F8F;
+}
+#telaLogin h1{
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 3em;
+}
+.caixasLogin p{
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.logoPrincipal{
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+
+/* ESTILIZAÇÃO TELA DE LEADS */
+
+#telaLead{
+  width: 900px;
+  max-height: 600000000px;
+  margin: auto;
+  margin-top: 70px;
+  background: #FFF;
+  border: 1px solid #000;
+}
+
+.tabelaLead{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;  
+}
+
+#tabela{
+  float: bottom;
+  width: 90%;
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.cabecarioTabela th{
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+  border-bottom: 3px solid #000;
+  background: #9F9F9F;
+  color: #FFF;
+  
+}
+
+.linhaTabela th{
+  background: #DEDEDE;
+}
+.linhaTabela button{
+  width: 200px;
+  height: 90px;  
+  background: transparent;
+}
+
+.linhaTabela2 th{
+  background: #FAFAFA;
+}
+.linhaTabela2 button{
+  width: 200px;
+  height: 90px;
+  background: transparent;
+}
+
+
+
+.logoLeads{
+  float: left;
+  height: 70px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+h3{
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+#botaoNovaLead{
+  height: 50px;
+  width: 270px;
+  background: #5094FF;
+  margin-left: 45px;
+  margin-top: 60px;
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: bolder;
+  border: none;
+}
+
+.clear{
+  clear: both;
+
+}
+#botaoNovaLead:hover{
+  background: #1951A9;
+  color: #FFF;
+}
+
+/*CRIAR NOVA LEAD */
+
+#caixasCriarLead{
+  width: 250px;
+  height: 330px;
+  margin-top: 60px;
+  float: left;
+  margin-left: 50px;
+
+}
+.caixasLoginLead{
+
+  width: 250px;
+  display: block;
+  text-align: left;
+  padding-bottom: 35px;
+}
+
+#caixaOportunidades{
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+
+}
+
+#divCriarLead{
+  background: #fff;
+  width: 800px;
+  height: 550px;
+  margin-left: 0px;
+  border: 1px solid black;
+}
+
+.tabelaCriaLead{
+  width: 300px;
+  margin-top: 5px;
+  border-collapse: collapse;
+  text-align: center;  
+  border: 2px solid #000;
+}
+
+.colunaCheckBox {
+  width: 40px;
+  background: #9F9F9F;
+  border-bottom: 3px solid #000;
+}
+.colunaOportunidades {
+  background: #9F9F9F;
+  color: #fff;
+  border-bottom: 3px solid #000;
+  padding: 2px;
+}
+
+.tabelaCriaLead th {
+  font-weight: 100;
+  padding: 2px;
+}
+
+.linhaUm {
+  background: #DEDEDE;
+}
+.linhaDois {
+  background: #FAFAFA;
+}
+
+#botaoCriarLead{
+  width: 300px;
+  height: 50px; 
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: white;
+  border: none;
+  background: #5980FF;
+}
+#botaoCriarLead:hover{
+  background-color: #1951A9;
+}
+
+
+.tbodyTeste{
+  height: 60px;
+  margin-top: 10px;
+  background-color: #DEDEDE;
+}
